@@ -13,13 +13,7 @@ function ContactForm() {
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <form
-            name="contact"
-            method="post"
-            className="flex flex-wrap -m-2"
-            data-netlify={"true"}
-            action="contact"
-          >
+          <form name="contact" method="post" className="flex flex-wrap -m-2">
             <input type="hidden" name="form-name" value="contact" />
             <div className="p-2 w-1/2">
               <div className="relative">
@@ -30,7 +24,7 @@ function ContactForm() {
                   Phone Number
                 </label>
                 <input
-                  type="text"
+                  type="number"
                   id="phone"
                   name="phone"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#0184a2] focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -69,7 +63,10 @@ function ContactForm() {
               </div>
             </div>
             <div className="p-2 w-full">
-              <button className="flex mx-auto text-white bg-[#0184a2] border-0 py-2 px-8 focus:outline-none  rounded text-lg">
+              <button
+                type="submit"
+                className="flex mx-auto text-white bg-[#0184a2] border-0 py-2 px-8 focus:outline-none  rounded text-lg"
+              >
                 Send
               </button>
             </div>
