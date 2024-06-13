@@ -13,7 +13,7 @@ function ContactForm() {
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <form name="contact" method="post" className="flex flex-wrap -m-2">
+          <form name="contact" method="POST" className="flex flex-wrap -m-2">
             <input type="hidden" name="form-name" value="contact" />
             <div className="p-2 w-1/2">
               <div className="relative">
