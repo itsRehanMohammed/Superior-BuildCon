@@ -18,6 +18,7 @@ function ContactForm() {
             method="post"
             className="flex flex-wrap -m-2"
             data-netlify={"true"}
+            action="contact"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="p-2 w-1/2">
