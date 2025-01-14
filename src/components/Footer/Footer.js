@@ -15,6 +15,13 @@ const Footer = () => {
             </p>
           </div>
 
+          <div className="lg:w-1/3 md:w-full w-full py-4 px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              Mr. KRISHNA JETTA
+            </h2>
+            <p>Founder & Proprietor</p>
+            <p>Phone: +1234567890</p>
+          </div>
           <div className="lg:w-1/3 md:w-full w-full py-4 px-4 md:border-none border-t-2">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               Mr. Venkat Chirineni (B.E. Civil)
@@ -30,13 +37,7 @@ const Footer = () => {
             <p>Manager</p>
             <p>Phone: +1234567890</p>
           </div>
-          <div className="lg:w-1/3 md:w-full w-full py-4 px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Mr. KRISHNA JETTA
-            </h2>
-            <p>Founder & Proprietor</p>
-            <p>Phone: +1234567890</p>
-          </div>
+          
         </div>
         <div className="bg-gray-100">
           <div className="container lg:max-w-7xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
