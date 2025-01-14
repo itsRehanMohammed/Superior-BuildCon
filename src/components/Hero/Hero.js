@@ -50,10 +50,11 @@ const Hero = () => {
               Welcome to Superior BuilderCon
             </h1>
             <p className="mb-8 leading-relaxed">
-              Superior BuilderCon is your gateway to innovative construction
-              solutions. Our commitment is to redefine excellence in the
-              building industry through cutting-edge technology and unparalleled
-              craftsmanship.
+              At Superior BuilderCon, we redefine excellence in building
+              renovations and repairs through meticulous planning, innovative
+              solutions, and a commitment to quality. Our expertise ensures
+              durable, energy-efficient, and visually striking spaces while
+              prioritizing trust, reliability, and seamless project management.
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

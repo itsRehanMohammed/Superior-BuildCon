@@ -71,12 +71,15 @@ function ContactForm() {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a className="text-[#0184a2]">superiorbuildcon@gmail.com</a>
+              <a
+                href="mailto:superiorbuildcon@gmail.com"
+                className="text-[#0184a2]"
+              >
+                superiorbuildcon@gmail.com
+              </a>
               <p className="leading-normal my-5">
-                Sanjay Jetta
-                <br />
-                Office No.1, 1st Floor, Beside Celebration 365 Hotel, Govt.
-                Colony, Bandra East, Mumbai - 400 051.
+                Shop No. 12, New Shopping Centre, Near Rajdhani Bakery, Govt.
+                Colony, Bandra East, Mumbai - 4000 51
               </p>
               <span className="inline-flex">
                 <a className="text-gray-500">

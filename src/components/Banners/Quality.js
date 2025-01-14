@@ -28,29 +28,15 @@ const Quality = () => {
               Quality Policy
             </h2>
             <p class="leading-relaxed text-base">
-              Quality is at the core of everything we do. Since the company was
-              founded, we are focused on delivering quality to our clients. We
-              recognize that continual improvement is the key factor of Quality.
-              Our aim is to complete the work with zero snags. For this, we
-              conduct continuing training and stay aware of technology. Each
-              step of projects is extensively documented on site. Our quality
-              teams stay at the site regularly and ensure compliance with
-              building regulations.
+              At Superior BuilderCon, quality is the cornerstone of everything
+              we do. We are committed to delivering top-tier building renovation
+              and repair solutions that exceed client expectations. Through
+              meticulous planning, skilled craftsmanship, and the use of premium
+              materials, we ensure every project is completed to the highest
+              standards. We continuously improve our processes, embrace
+              innovative techniques, and prioritize customer satisfaction,
+              fostering long-term trust and reliability in our services.
             </p>
-            <a class="mt-3 text-[#0184a2] inline-flex items-center">
-              Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
           </div>
         </div>
         <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -59,36 +45,17 @@ const Quality = () => {
               Safety Policy
             </h2>
             <p class="leading-relaxed text-base">
-              Safety is not negotiable. This Policy on Safety and Health at Work
-              is based on Superior Buildcon Business Principles and the Superior
-              Buildcon Leadership Principles, which are binding for the whole
-              Superior Buildcon. We believe that sustainable success can be
-              reached only through people. No other asset in the company is as
-              important as the people that contribute with their work to our
-              culture and our business results. Therefore, we devote all
-              necessary energy and attention to protect employees, contractors,
-              and any other people involved with the company along the value
-              chain, including suppliers, customers, and the public. Compliance
-              is crucial, and to be at the forefront of accident prevention in
-              the industry, we implement the mandatory Occupational Safety and
-              Health Management System in all our sites, which meets or exceeds
-              the requirements of the health and safety laws applicable in the
-              countries in which we operate.
+              Safety is a fundamental priority at Superior BuilderCon. We are
+              dedicated to maintaining a safe and healthy work environment for
+              our employees, clients, and stakeholders. By adhering to stringent
+              safety protocols, conducting regular training, and utilizing
+              appropriate protective equipment, we mitigate risks and ensure
+              safe execution across all projects. Our commitment to safety
+              extends to proactively identifying hazards, complying with
+              regulatory requirements, and promoting a culture where safety is
+              everyone’s responsibility. Together, we build with care and
+              confidence.
             </p>
-            <a class="mt-3 text-[#0184a2] inline-flex items-center">
-              Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
           </div>
           <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#0184a2] flex-shrink-0">
             <svg

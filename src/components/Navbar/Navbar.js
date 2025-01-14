@@ -121,7 +121,7 @@ const Navbar = () => {
               <li className="text-gray-600  hover:text-[#0184a2]">
                 <Link to={"/gallery"} onClick={() => setIsOpen(false)}>
                   <button className="rounded-md border-2 border-[#0184a2] px-6 py-1 font-medium text-[#0184a2] transition-colors hover:bg-[#0184a2] hover:text-white">
-                    Galery
+                    Gallery
                   </button>
                 </Link>
               </li>

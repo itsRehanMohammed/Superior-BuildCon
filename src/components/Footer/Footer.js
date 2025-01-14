@@ -10,8 +10,8 @@ const Footer = () => {
               <img src="./assets/logo.jpg" className="w-48" />
             </a>
             <p className="mt-4 text-sm text-gray-500 pl-3">
-              Office No.1, 1st Floor, Beside Celebration 365 Hotel, Govt.
-              Colony, Bandra East, Mumbai - 400 051.
+              Shop No. 12, New Shopping Centre, Near Rajdhani Bakery, Govt.
+              Colony, Bandra East, Mumbai - 4000 51
             </p>
           </div>
 
@@ -20,39 +20,38 @@ const Footer = () => {
               Mr. KRISHNA JETTA
             </h2>
             <p>Founder & Proprietor</p>
-            <p>Phone: +1234567890</p>
+            <a href="tel://+91 9820174835">Phone: +91 9820174835</a>
           </div>
           <div className="lg:w-1/3 md:w-full w-full py-4 px-4 md:border-none border-t-2">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Mr. Venkat Chirineni (B.E. Civil)
+              Mr. Venkat Chirineni
             </h2>
             <p>Manager</p>
-            <p>Phone: +1234567890</p>
+            <a href="tel://+91 9820512566">Phone: +91 9820512566</a>
           </div>
 
           <div className="lg:w-1/3 md:w-full w-full py-4 px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Mr. Sanjay Jetta (B.E. Civil)
+              Mr. Sanjay Jetta
             </h2>
             <p>Manager</p>
-            <p>Phone: +1234567890</p>
+            <a href="tel://+91 9619947488">Phone: +91 9619947488</a>
           </div>
-          
         </div>
         <div className="bg-gray-100">
           <div className="container lg:max-w-7xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2024 SuperiorBuilderCon —
+              © 2025 SuperiorBuilderCon —
               <a
-                href="https://www.linkedin.com/in/rehanmohammed04/"
+                href="https://happysolutionss.com/"
                 rel="noopener noreferrer"
                 className="text-gray-600 ml-1"
                 target="_blank"
               >
-                Made by Rehan
+                Made by Happy Solutions
               </a>
             </p>
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-500">
                 <svg
                   fill="currentColor"
@@ -108,7 +107,7 @@ const Footer = () => {
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </a>
-            </span>
+            </span> */}
           </div>
         </div>
       </footer>

@@ -2,13 +2,23 @@ import React from "react";
 import FAQ from "../components/FAQ/FAQ";
 
 const Help = () => {
+  const handleStartChat = () => {
+    const phoneNumber = "919820512566"; // Your WhatsApp business number
+    const message = encodeURIComponent(
+      "Hi, I would like to get more information."
+    );
+
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <>
       <section className="text-gray-600 body-font px-10 bg-gradient-to-b from-white to-[#cef6ff]">
         <div className="container mx-auto flex px-5 pt-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-10 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Before Get the info you’re looking for right now
+              Before getting the info you're looking for right now
             </h1>
             <p className="mb-8 leading-relaxed">
               Get answers to common questions and access service support
@@ -56,7 +66,11 @@ const Help = () => {
               <p className="leading-relaxed text-base">
                 We respond right away during normal business hours*
               </p>
-              <a className="inline-flex mt-4 text-white bg-[#0184a2] border-0 py-2 px-6 focus:outline-none  rounded text-lg">
+              <a
+                href="#"
+                onClick={handleStartChat}
+                className="inline-flex mt-4 text-white bg-[#0184a2] border-0 py-2 px-6 focus:outline-none  rounded text-lg"
+              >
                 Start Chat
               </a>
             </div>
@@ -82,7 +96,10 @@ const Help = () => {
               <p className="leading-relaxed text-base">
                 We’ll get back to you within a day
               </p>
-              <a className="inline-flex mt-4 font-semibold text-[#0184a2] py-2 rounded text-lg cursor-pointer">
+              <a
+                href="mailto:superiorbuildcon@gmail.com"
+                className="inline-flex mt-4 font-semibold text-[#0184a2] py-2 rounded text-lg cursor-pointer"
+              >
                 superiorbuildcon@gmail.com
               </a>
             </div>

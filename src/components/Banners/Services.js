@@ -3,28 +3,28 @@ import React from "react";
 const Services = () => {
   const areasOfWork = [
     {
-      title: "Planning",
+      title: "Expert Renovation Planning",
     },
     {
-      title: "Management (At Site)",
+      title: "Customized Building Repairs",
     },
     {
-      title: "Execution",
+      title: "Interior and Exterior Upgrades",
     },
     {
-      title: "Rehabilitation of Residential & Industrial Structures",
+      title: "Structural Integrity Enhancements",
     },
     {
-      title: "Constructions & Interior Fit outs",
+      title: "Project Management Excellence",
     },
     {
-      title: "Safety",
+      title: "Waterproofing and Seepage Solutions",
     },
     {
-      title: "Quality",
+      title: "Energy-Efficient Renovations",
     },
     {
-      title: "Trust",
+      title: "Reliability and Transparency",
     },
   ];
 
