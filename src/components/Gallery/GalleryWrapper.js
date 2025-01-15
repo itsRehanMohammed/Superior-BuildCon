@@ -7,7 +7,7 @@ const GalleryWrapper = () => {
       <div className="container px-5 pt-20 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            SuperiorBuilderCon Gallery Showcase
+            SuperiorBuildCon Gallery Showcase
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Explore our curated selection of projects that highlight our

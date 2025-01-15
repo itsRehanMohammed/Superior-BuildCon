@@ -28,8 +28,8 @@ const Quality = () => {
               Quality Policy
             </h2>
             <p class="leading-relaxed text-base">
-              At Superior BuilderCon, quality is the cornerstone of everything
-              we do. We are committed to delivering top-tier building renovation
+              At Superior BuildCon, quality is the cornerstone of everything we
+              do. We are committed to delivering top-tier building renovation
               and repair solutions that exceed client expectations. Through
               meticulous planning, skilled craftsmanship, and the use of premium
               materials, we ensure every project is completed to the highest
@@ -45,7 +45,7 @@ const Quality = () => {
               Safety Policy
             </h2>
             <p class="leading-relaxed text-base">
-              Safety is a fundamental priority at Superior BuilderCon. We are
+              Safety is a fundamental priority at Superior BuildCon. We are
               dedicated to maintaining a safe and healthy work environment for
               our employees, clients, and stakeholders. By adhering to stringent
               safety protocols, conducting regular training, and utilizing

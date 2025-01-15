@@ -47,10 +47,10 @@ const Hero = () => {
         <div className="container mx-auto flex px-5 pt-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-10 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
-              Welcome to Superior BuilderCon
+              Welcome to Superior BuildCon
             </h1>
             <p className="mb-8 leading-relaxed">
-              At Superior BuilderCon, we redefine excellence in building
+              At Superior BuildCon, we redefine excellence in building
               renovations and repairs through meticulous planning, innovative
               solutions, and a commitment to quality. Our expertise ensures
               durable, energy-efficient, and visually striking spaces while

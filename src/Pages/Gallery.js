@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import photo2 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo2.jpg"; 
-import photo1 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo1.jpg"; 
-import photo3 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo3.jpg"; 
-import photo4 from "../assets/SuperiorBuildcon-Gallery/Koteshwar Darshan, Subhash Road, Vile Parle East/photo4.jpg"; 
+import photo2 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo2.jpg";
+import photo1 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo1.jpg";
+import photo3 from "../assets/SuperiorBuildcon-Gallery/Anirudha CHSL, Sant Jana Bai Road, Vile Parle East/photo3.jpg";
+import photo4 from "../assets/SuperiorBuildcon-Gallery/Koteshwar Darshan, Subhash Road, Vile Parle East/photo4.jpg";
 import photo5 from "../assets/SuperiorBuildcon-Gallery/Koteshwar Darshan, Subhash Road, Vile Parle East/photo5.jpg";
 import photo6 from "../assets/SuperiorBuildcon-Gallery/Pushpakunj CHSL, Dixit Road,Vile Parle East/photo6.jpg";
 import photo7 from "../assets/SuperiorBuildcon-Gallery/Pushpakunj CHSL, Dixit Road,Vile Parle East/photo7.jpg";
@@ -20,10 +20,11 @@ const Gallery = () => {
   const galleryData = [
     {
       subtitle: "Vinayak Bunglow",
-      description: "Address: Vinayak Bunglow, Tejpal scheme Road No 5, Vile Parle East",
+      description:
+        "Address: Vinayak Bunglow, Tejpal scheme Road No 5, Vile Parle East",
       images: [photo15],
     },
-   
+
     {
       subtitle: "Koteshwar Darshan",
       description: "Address: Koteshwar Darshan, Subhash Road, Vile Parle East",
@@ -46,7 +47,8 @@ const Gallery = () => {
     },
     {
       subtitle: "Anirudha CHSL",
-      description: "Address: Anirudha CHSL, Sant Jana Bai Road, Vile Parle East",
+      description:
+        "Address: Anirudha CHSL, Sant Jana Bai Road, Vile Parle East",
       images: [photo1, photo2, photo3],
     },
   ];
@@ -66,16 +68,20 @@ const Gallery = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            SuperiorBuilderCon Gallery Showcase
+            SuperiorBuildCon Gallery Showcase
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Welcome to the SuperiorBuilderCon Gallery. Explore our curated selection of projects highlighting our expertise.
+            Welcome to the SuperiorBuildCon Gallery. Explore our curated
+            selection of projects highlighting our expertise.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {galleryData.map((item, index) => (
             <div className="lg:w-1/3 sm:w-1/2 p-4" key={index}>
-              <div className="flex relative h-[300px] cursor-pointer" onClick={() => handleOpenModal(item)}>
+              <div
+                className="flex relative h-[300px] cursor-pointer"
+                onClick={() => handleOpenModal(item)}
+              >
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -104,8 +110,12 @@ const Gallery = () => {
               >
                 ✕
               </button>
-              <h2 className="text-xl font-bold text-center my-4">{selectedGallery.subtitle}</h2>
-              <p className="text-center text-gray-600">{selectedGallery.description}</p>
+              <h2 className="text-xl font-bold text-center my-4">
+                {selectedGallery.subtitle}
+              </h2>
+              <p className="text-center text-gray-600">
+                {selectedGallery.description}
+              </p>
             </div>
             <div className="overflow-y-auto max-h-[400px] p-4">
               {selectedGallery.images.map((img, idx) => (

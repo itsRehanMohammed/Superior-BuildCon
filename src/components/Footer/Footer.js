@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="bg-gray-100">
           <div className="container lg:max-w-7xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2025 SuperiorBuilderCon —
+              © 2025 SuperiorBuildCon —
               <a
                 href="https://happysolutionss.com/"
                 rel="noopener noreferrer"
